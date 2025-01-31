@@ -1,18 +1,13 @@
-import Navbar from './nav-bar/page';
-import Footer from './footer/page';
+import React from 'react';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow pt-16">
-        {children}
-      </main>
-      <Footer />
+    <div className="min-h-screen">
+      {children}
     </div>
   );
 };

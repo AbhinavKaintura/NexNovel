@@ -1,15 +1,10 @@
-import Head from 'next/head';
-import Layout from '@/components/layout';
+
 import { TrendingUp, Users, Target, BarChart } from 'lucide-react';
 
-export default function Marketing() {
+const Marketing = () => {
   return (
-    <Layout>
-      <Head>
-        <title>Marketing Services - Eryx Media</title>
-        <meta name="description" content="Strategic marketing solutions for your business" />
-      </Head>
-
+    <div>
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-500 to-teal-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -59,6 +54,8 @@ export default function Marketing() {
           </div>
         </div>
       </section>
-    </Layout>
+    </div>
   );
 }
+
+export default Marketing;

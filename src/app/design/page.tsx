@@ -1,14 +1,10 @@
-import Head from 'next/head';
-import Layout from '@/components/layout';
+
 import { ArrowRight, Palette, Layout as LayoutIcon, Image, PenTool } from 'lucide-react';
 
-export default function Design() {
+const Design = () => {
   return (
-    <Layout>
-      <Head>
-        <title>Design Services - Eryx Media</title>
-        <meta name="description" content="Professional design services for your brand" />
-      </Head>
+    <div>
+
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-pink-500 to-purple-600 text-white">
@@ -57,6 +53,8 @@ export default function Design() {
           </div>
         </div>
       </section>
-    </Layout>
+    </div>
   );
 }
+
+export default Design;

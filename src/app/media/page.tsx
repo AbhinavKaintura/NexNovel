@@ -1,14 +1,10 @@
-import Head from 'next/head';
-import Layout from '@/components/layout';
+
 import { Film, Camera, Music, Video, ArrowRight } from 'lucide-react';
 
-export default function Media() {
+const Media = () => {
   return (
-    <Layout>
-      <Head>
-        <title>Media Services - Eryx Media</title>
-        <meta name="description" content="Professional media production services" />
-      </Head>
+    <div>
+      
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-purple-600 to-red-500 text-white">
@@ -60,6 +56,8 @@ export default function Media() {
           </div>
         </div>
       </section>
-    </Layout>
+    </div>
   );
 }
+
+export default Media;

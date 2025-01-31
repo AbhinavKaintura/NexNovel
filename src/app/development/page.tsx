@@ -1,14 +1,10 @@
-import Head from 'next/head';
-import Layout from '@/components/layout';
+
 import { Code, Database, Globe, Smartphone } from 'lucide-react';
 
-export default function Development() {
+const Development = () => {
   return (
-    <Layout>
-      <Head>
-        <title>Development Services - Eryx Media</title>
-        <meta name="description" content="Custom development solutions for your digital needs" />
-      </Head>
+    <div>
+
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white">
@@ -57,6 +53,8 @@ export default function Development() {
           </div>
         </div>
       </section>
-    </Layout>
+    </div>
   );
 }
+
+export default Development;

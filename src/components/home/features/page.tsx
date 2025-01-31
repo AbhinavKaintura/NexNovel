@@ -1,7 +1,8 @@
+'use client'; 
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Features: React.FC = () => {
+const Features = () => {
   return (
     <section className="py-24 bg-neutral-50">
       <div className="max-w-7xl mx-auto px-6">

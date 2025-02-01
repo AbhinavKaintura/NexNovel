@@ -35,7 +35,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/80 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        scrolled ? 'bg-white/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link href="/" className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-sans-display text-gray-800">
                 <span className="font-bold">ERYX</span>
-                <span className="font-light ml-2">Media</span>
+                <span className="font-light font-montserrat ml-2">Media</span>
               </span>
             </Link>
           </motion.div>
@@ -73,7 +73,7 @@ const Navbar = () => {
               >
                 <Link
                   href={item.path}
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-gray-100/50"
+                  className="text-gray-600 hover:text-gray-900 font-montserrat px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-gray-100/50"
                 >
                   {item.title}
                 </Link>

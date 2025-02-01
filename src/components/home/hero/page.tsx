@@ -50,7 +50,7 @@ export const Hero = () => {
                 animate={{ opacity: 1 }}
                 whileHover="hover"
                 variants={textHoverVariants}
-                className="text-white/80 text-lg tracking-wide cursor-pointer"
+                className="text-white/80 text-lg tracking-wide cursor-pointer font-montserrat"
               >
                 At Eryx Media, we believe in transforming ideas into impactful realities.
               </motion.p>
@@ -77,7 +77,7 @@ export const Hero = () => {
               transition={{ delay: 0.2 }}
               whileHover="hover"
               variants={textHoverVariants}
-              className="text-white/80 text-xl font-light cursor-pointer"
+              className="text-white/80 text-xl font-light cursor-pointer font-montserrat"
             >
               At Eryx Media, we don't just build brands; we create legacies.
             </motion.p>
@@ -86,7 +86,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="flex gap-6 pt-4"
+              className="flex gap-6 pt-4 font-montserrat"
             >
               {/* Learn More Button */}
               <Link href="/learn-more">

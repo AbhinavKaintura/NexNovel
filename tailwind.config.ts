@@ -18,6 +18,7 @@ export default {
         'sans-display': ['var(--font-space-grotesk)'],
         'Inconsolata': ['var(--font-inconsolata)'],
         'dance': ['var(--font-dancing)'],
+        'montserrat': ['var(--font-montserrat)'],
       },
     },
   },

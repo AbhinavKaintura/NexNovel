@@ -116,7 +116,7 @@ const Services = () => {
                 variants={textHoverVariants}
                 initial="initial"
                 whileHover="hover"
-                className="text-3xl md:text-4xl font-light text-green-900 mb-4 cursor-pointer"
+                className="text-3xl md:text-4xl font-light text-green-900 mb-4 cursor-pointer font-Inconsolata"
               >
                 {service.title}
               </motion.h3>
@@ -124,7 +124,7 @@ const Services = () => {
                 variants={textHoverVariants}
                 initial="initial"
                 whileHover="hover"
-                className="text-lg md:text-xl text-neutral-600"
+                className="text-lg md:text-xl text-neutral-600 font-montserrat"
               >
                 {service.description}
               </motion.p>

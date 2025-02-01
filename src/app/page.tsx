@@ -2,6 +2,7 @@ import {Hero} from '@/components/home/hero/page';
 import Services from '@/components/home/services/page';
 import Features from '@/components/home/features/page';
 import Navbar from '@/components/nav-bar/page';
+import Footer from '@/components/footer/page';
 import Head from 'next/head';
 import { m as motion, LazyMotion, domAnimation } from 'framer-motion';
 
@@ -18,6 +19,7 @@ export default function Home() {
           <Hero />
           <Services />
           <Features />
+          <Footer />
         </main>
       </div>
     </LazyMotion>

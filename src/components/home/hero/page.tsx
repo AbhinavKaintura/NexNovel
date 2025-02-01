@@ -1,6 +1,5 @@
 'use client';
 import { m as motion } from 'framer-motion';
-import { AnimatedText } from './AnimatedText';
 import Image from 'next/image';
 import Link from 'next/link'; // Import Link from next/link
 import backgroundImage from '../../../../public/1738358449924.jpg';

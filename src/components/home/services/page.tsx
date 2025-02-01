@@ -168,15 +168,15 @@ const Services = () => {
         ))}
         
       </motion.div>
-      <div className="w-full">
+      {/* <div className="w-full">
       <Image
         src={message}
         alt="message"
         className="w-full h-auto object-cover my-16"
-        width={1920} // Set a default width
-        height={1080} // Set a default height
+        width={1920} 
+        height={1080} 
       />
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -76,14 +76,20 @@ const HeroSection = () => {
               </motion.div>
             ))}
           </motion.div>
+          
           <motion.div className="flex items-center space-x-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-4 py-2 text-white border font-montserrat border-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition-colors"
-            >
-              Contact Us
-            </motion.button>
+           <motion.div className="hidden md:flex items-center space-x-8">
+                     {/* Fixed Contact Us Link */}
+                     <motion.a
+                       href="/contact-us"
+                       whileHover={{ scale: 1.05 }}
+                       whileTap={{ scale: 0.95 }}
+                       className="px-4 py-2 text-white mr-11 border font-montserrat border-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition-colors"
+                     >
+                       Contact Us
+                     </motion.a>
+                     
+                   </motion.div>
             <motion.a
               href="/"
               whileHover={{ scale: 1.1 }}

@@ -52,10 +52,10 @@ const Footer = () => {
     {
       title: 'Services',
       links: [
-        { name: 'Design', href: '/services/design' },
-        { name: 'Development', href: '/services/development' },
-        { name: 'Marketing', href: '/services/marketing' },
-        { name: 'Content', href: '/services/content' },
+        { name: 'Design', href: '/design' },
+        { name: 'Development', href: '/development' },
+        { name: 'Marketing', href: '/marketing' },
+        { name: 'Media', href: '/media' },
       ],
     },
     {

@@ -2,45 +2,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import img1 from "@/../public/alien.jpg"
 
-// Marketing Insights Data
 const marketingInsights = [
   {
     title: 'Leverage Social Proof',
     description:
       'Use customer testimonials, reviews, and case studies to build trust and credibility with your audience.',
-    image: '/marketing-socials.jpg', // Replace with actual image path
+    image: '/marketing-socials.jpg',
   },
   {
     title: 'Personalized Campaigns',
     description:
       'Tailor your marketing messages to individual customers based on their preferences and behaviors.',
-    image: '/marketing-campaigns.jpg', // Replace with actual image path
+    image: '/marketing-campaigns.jpg',
   },
   {
     title: 'Video Content Dominance',
     description:
       'Incorporate video content into your strategy as it drives higher engagement and conversion rates.',
-    image: '/marketing-video-dominance.jpg', // Replace with actual image path
+    image: '/marketing-video-dominance.jpg',
   },
   {
     title: 'AI-Powered Analytics',
     description:
       'Utilize AI tools to analyze customer data and predict future trends for better decision-making.',
-    image: '/marketing-Analytics.jpg', // Replace with actual image path
+    image: '/marketing-Analytics.jpg',
   },
   {
     title: 'Micro-Influencer Partnerships',
     description:
       'Collaborate with niche influencers to reach highly engaged audiences in specific markets.',
-    image: '/marketing-social.jpg', // Replace with actual image path
+    image: '/marketing-social.jpg',
   },
   {
     title: 'Sustainability in Marketing',
     description:
       'Highlight eco-friendly practices in your campaigns to appeal to environmentally conscious consumers.',
-    image: '/marketing-sustainability.jpg', // Replace with actual image path
+    image: '/marketing-sustainability.jpg',
   },
 ];
 

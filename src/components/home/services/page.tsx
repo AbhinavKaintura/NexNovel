@@ -7,7 +7,7 @@ import marketingImage from '../../../../public/marketing-image.jpg';
 import developmentImage from '../../../../public/development-image.jpg'; 
 import mediaContentImage from '../../../../public/media-content-image.jpg'; 
 import { ArrowRight } from 'lucide-react';
-import message from "@/../public/message.png";
+import message from "@/../public/message.png"; 
 
 const Services = () => {
   const containerVariants = {

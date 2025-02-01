@@ -16,6 +16,8 @@ export default {
       fontFamily: {
         sans: ['var(--font-inter)'],
         'sans-display': ['var(--font-space-grotesk)'],
+        'Inconsolata': ['var(--font-inconsolata)'],
+        'dance': ['var(--font-dancing)'],
       },
     },
   },

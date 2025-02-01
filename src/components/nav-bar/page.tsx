@@ -9,11 +9,15 @@ import Logo from '../../../public/logo-removebg-preview.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [logoVisible, setLogoVisible] = useState(false); // New state for logo visibility
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      const scrollPosition = window.scrollY;
+      setScrolled(scrollPosition > 20);
+      setLogoVisible(scrollPosition > 20); // Set logo visibility based on scroll position
     };
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -41,13 +45,15 @@ const Navbar = () => {
             animate={{ x: 0, opacity: 1 }}
             className="flex items-center space-x-4"
           >
-            <Image 
-              src={Logo}
-              alt="Logo"
-              width={45}
-              height={45}
-              className="object-contain"
-            />
+            {logoVisible && ( // Conditionally render the logo based on logoVisible state
+              <Image 
+                src={Logo}
+                alt="Logo"
+                width={45}
+                height={45}
+                className="object-contain"
+              />
+            )}
             <Link href="/" className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-sans-display text-gray-800">
                 <span className="font-bold">ERYX</span>

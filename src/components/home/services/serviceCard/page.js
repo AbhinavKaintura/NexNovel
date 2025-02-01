@@ -1,3 +1,4 @@
+// Code: ServiceCard component
 'use client';
 import { m as motion } from 'framer-motion';
 import { useState } from 'react';

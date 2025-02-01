@@ -4,7 +4,7 @@ import { AnimatedText } from './AnimatedText';
 import Image from 'next/image';
 import Link from 'next/link'; // Import Link from next/link
 import backgroundImage from '../../../../public/1738358449924.jpg';
-import heroImage from '../../../../public/logo.png';
+import heroImage from '../../../../public/card.png';
 
 export const Hero = () => {
   const textHoverVariants = {

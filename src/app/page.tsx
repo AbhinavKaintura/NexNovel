@@ -1,5 +1,5 @@
 import {Hero} from '@/components/home/hero/page';
-import {Services} from '@/components/home/services/page';
+import Services from '@/components/home/services/page';
 import Features from '@/components/home/features/page';
 import Navbar from '@/components/nav-bar/page';
 import Head from 'next/head';

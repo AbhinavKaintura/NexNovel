@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import React from "react";
-import { Inter, Space_Grotesk } from 'next/font/google';
+import { Inter, Space_Grotesk, Inconsolata, Dancing_Script } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -20,6 +20,10 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+const inconsolataFont = Inconsolata({ variable: "--font-inconsolata", subsets: ["latin"] });
+
+const dancingFont = Dancing_Script({ variable: "--font-dancing", subsets: ["latin"] });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -39,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${spaceGrotesk.variable} ${inconsolataFont.variable} ${dancingFont.variable} antialiased`}
       >
         {children}
       </body>

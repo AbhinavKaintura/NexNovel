@@ -50,6 +50,14 @@ const Services = () => {
   };
 
   const services = [
+      {
+      title: 'Web & App Development',
+      description: 'Building seamless digital experiences with innovative design and functionality. Our team creates responsive websites and intuitive mobile apps that prioritize user experience and performance.',
+      image: developmentImage,
+      imageAlt: 'Web & App Development',
+      imageSize: '3/4',
+      link: '/development'
+    },
     {
       title: 'Design & Branding',
       description: 'Crafting visually compelling and memorable brand identities. From logos to complete brand guidelines, we ensure a cohesive and impactful presence across all platforms.',
@@ -66,14 +74,7 @@ const Services = () => {
       imageSize: '4/3',
       link: '/marketing'
     },
-    {
-      title: 'Web & App Development',
-      description: 'Building seamless digital experiences with innovative design and functionality. Our team creates responsive websites and intuitive mobile apps that prioritize user experience and performance.',
-      image: developmentImage,
-      imageAlt: 'Web & App Development',
-      imageSize: '3/4',
-      link: '/development'
-    },
+
     {
       title: 'Media & Content Creation',
       description: 'Bringing stories to life through engaging visuals and impactful narratives. We specialize in photography, videography, and content strategy to elevate your brands message.',

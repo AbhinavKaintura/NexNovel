@@ -145,7 +145,7 @@ Best regards,
             >
               <Mail className="w-8 h-8 mx-auto mb-4 text-gray-600" />
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
-              <p className="text-gray-600">meetus@mersate.com</p>
+              <p className="text-gray-600">divyanshuempire789@gmail.com</p>
               <span className="text-sm text-gray-500 mt-2 block">24/7 Support</span>
             </motion.div>
 
@@ -157,8 +157,8 @@ Best regards,
             >
               <Phone className="w-8 h-8 mx-auto mb-4 text-gray-600" />
               <h3 className="text-lg font-semibold mb-2">Call Us</h3>
-              <p className="text-gray-600">9063212333</p>
-              <span className="text-sm text-gray-500 mt-2 block">Mon-Fri 9AM-6PM</span>
+              <p className="text-gray-600">+91 93681 52845</p>
+              <span className="text-sm text-gray-500 mt-2 block">Mon-Fri 9AM-5PM</span>
             </motion.div>
 
             <motion.div 
@@ -180,13 +180,11 @@ Best regards,
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-light mb-4">Send Us an Email</h2>
-            <p className="text-gray-600">
-              Choose a template below to quickly compose your email or send a direct message to meetus@mersate.com
-            </p>
+            {/* <h2 className="text-3xl font-light mb-4">Send Us an Email</h2> */}
+
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {emailTemplates.map((template) => (
               <motion.div
                 key={template.id}
@@ -208,17 +206,17 @@ Best regards,
                 </div>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200 text-center">
             <p className="text-gray-600 mb-4">
-              Prefer to write your own email? Send us a direct message at:
+              Prefer to write us a email? Send us a direct message at:
             </p>
             <a
-              href="mailto:meetus@mersate.com"
+              href="divyanshuempire@gmail.com"
               className="inline-flex items-center text-black hover:text-gray-800 font-medium"
             >
-              meetus@mersate.com
+              divyanshuempire789@gmail.com
               <ExternalLink className="w-4 h-4 ml-2" />
             </a>
           </div>

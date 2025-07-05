@@ -18,7 +18,7 @@ export default function Home() {
           <Navbar />
           <Hero />
           <Services />
-          <Features />
+          {/* <Features /> */}
           <Footer />
         </main>
       </div>

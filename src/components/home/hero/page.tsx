@@ -2,7 +2,7 @@
 import { m as motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link'; // Import Link from next/link
-import backgroundImage from '../../../../public/1738358449924.jpg';
+import backgroundImage from '../../../../public/Hero_image.jpg';
 import heroImage from '../../../../public/card.png';
 
 export const Hero = () => {
@@ -49,12 +49,12 @@ export const Hero = () => {
                 animate={{ opacity: 1 }}
                 whileHover="hover"
                 variants={textHoverVariants}
-                className="text-white/80 text-lg tracking-wide cursor-pointer font-montserrat"
+                className="text-black/ text-lg tracking-wide cursor-pointer font-montserrat"
               >
-                At Eryx Media, we believe in transforming ideas into impactful realities.
+                At Nex Novel, we believe in transforming ideas into impactful realities.
               </motion.p>
               <div className="space-y-2">
-                {['ENVISION', 'EXECUTE', 'EXCEL'].map((text, index) => (
+                {['Aim', 'Revolutionize', 'AI Future'].map((text, index) => (
                   <motion.h1
                     key={text}
                     initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export const Hero = () => {
                     transition={{ delay: index * 0.2 }}
                     whileHover="hover"
                     variants={headingHoverVariants}
-                    className="text-6xl lg:text-7xl font-bold text-white leading-tight tracking-wider cursor-pointer"
+                    className="text-6xl lg:text-7xl font-bold text-green-800 leading-tight tracking-wider cursor-pointer"
                   >
                     {text}
                   </motion.h1>
@@ -76,9 +76,9 @@ export const Hero = () => {
               transition={{ delay: 0.2 }}
               whileHover="hover"
               variants={textHoverVariants}
-              className="text-white/80 text-xl font-light cursor-pointer font-montserrat"
+              className="text-black/80 text-xl font-light cursor-pointer font-montserrat"
             >
-              At Eryx Media, we don't just build brands; we create legacies.
+              At Nex Novel, we aim to create a Mental Health AI app that revolutionizes the way people manage their mental well-being. 
             </motion.p>
             
             <motion.div
@@ -88,7 +88,7 @@ export const Hero = () => {
               className="flex gap-6 pt-4 font-montserrat"
             >
               {/* Learn More Button */}
-              <Link href="/learn-more">
+              {/* <Link href="/learn-more">
                 <motion.button
                   variants={buttonVariants}
                   initial="initial"
@@ -98,7 +98,7 @@ export const Hero = () => {
                 >
                   Learn More
                 </motion.button>
-              </Link>
+              </Link> */}
               
               {/* Contact Us Button */}
               <Link href="/contact-us">

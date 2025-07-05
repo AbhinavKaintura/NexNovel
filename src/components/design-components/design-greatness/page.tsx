@@ -35,7 +35,7 @@ const DesignGreatnessSection = () => {
           variants={cardVariants}
           className="text-xl text-center mb-12"
         >
-          Discover why ERYX Media Design stands out in the world of design.
+          Discover why Nex Novel Media Design stands out in the world of design.
         </motion.p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1 */}
@@ -99,7 +99,7 @@ const DesignGreatnessSection = () => {
           <div className="flex flex-col items-center space-y-6">
             <blockquote className="text-lg text-gray-400">
               "Transform your brand with cutting-edge design solutions that capture attention and inspire action."
-              <footer className="text-gray-300 mt-2">- ERYX Media Design</footer>
+              <footer className="text-gray-300 mt-2">- Nex Novel Media Design</footer>
             </blockquote>
             
           </div>

@@ -55,7 +55,7 @@ const HeroSection = () => {
       >
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="text-white text-2xl font-Inconsolata font-bold">
-            ERYX
+            NexNovel
           </Link>
           <motion.div className="hidden md:flex items-center space-x-8 font-montserrat">
             {navItems.map((item) => (
@@ -120,12 +120,12 @@ const HeroSection = () => {
             whileHover={{ scale: 1.05 }}
             className="text-yellow-400 text-xl md:text-2xl"
           >
-            ERYX Media Design
+            Nev Novel Design
           </motion.p>
         </div>
       </motion.div>
     </div>
   );
 };
-
+  
 export default HeroSection;

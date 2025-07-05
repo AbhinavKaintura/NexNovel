@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Instagram, Twitter, Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
-import logo from "@/../public/logo-removebg-preview.png"
+import logo from "@/../public/icon.png"
 
 const Footer = () => {
   const containerVariants = {
@@ -61,10 +61,10 @@ const Footer = () => {
     {
       title: 'Contact',
       links: [
-        { name: 'Support', href: '/support' },
-        { name: 'Sales', href: '/sales' },
-        { name: 'Partners', href: '/partners' },
-        { name: 'Help Center', href: '/help' },
+        { name: 'Support', href: '/' },
+        { name: 'Sales', href: '/' },
+        { name: 'Partners', href: '/' },
+        { name: 'Help Center', href: '/' },
       ],
     },
   ];
@@ -103,7 +103,7 @@ const Footer = () => {
             </Link>
             
             <p className="text-neutral-600 mb-6 max-w-md">
-              Crafting digital experiences that inspire and transform. Join us in shaping the future of design and technology.
+               Join us in shaping the future of design and technology. We aim to create a meaningful AI mental health app that helps people manage their mental well-being through personalized support and resources.
             </p>
 
             <div className="flex space-x-4 mb-8">
@@ -128,15 +128,14 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 text-neutral-600">
                 <Mail size={18} />
-                <span>contact@company.com</span>
+                <span>divyanshuempire789@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-neutral-600">
                 <Phone size={18} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 93681 52845</span>
               </div>
               <div className="flex items-center space-x-3 text-neutral-600">
-                <MapPin size={18} />
-                <span>123 Design Street, Creative City</span>
+                
               </div>
             </div>
           </motion.div>
@@ -177,13 +176,13 @@ const Footer = () => {
               © {new Date().getFullYear()} Your Company. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="text-neutral-600 hover:text-green-800 transition-colors">
+              <Link href="/" className="text-neutral-600 hover:text-green-800 transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-neutral-600 hover:text-green-800 transition-colors">
+              <Link href="/" className="text-neutral-600 hover:text-green-800 transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/cookies" className="text-neutral-600 hover:text-green-800 transition-colors">
+              <Link href="/" className="text-neutral-600 hover:text-green-800 transition-colors">
                 Cookie Policy
               </Link>
             </div>

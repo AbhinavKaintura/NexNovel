@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 import { m as motion, AnimatePresence } from 'framer-motion';
-import Logo from '../../../public/logo-removebg-preview.png';
+import Logo from '../../../public/icon.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +24,9 @@ const Navbar = () => {
 
   const menuItems = [
     { title: 'Home', path: '/' },
+    { title: 'Development', path: '/development' },
     { title: 'Design', path: '/design' },
     { title: 'Marketing', path: '/marketing' },
-    { title: 'Development', path: '/development' },
     { title: 'Media', path: '/media' }
   ];
 
@@ -56,8 +56,8 @@ const Navbar = () => {
             )}
             <Link href="/" className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-sans-display text-gray-800">
-                <span className="font-bold">ERYX</span>
-                <span className="font-light font-montserrat ml-2">Media</span>
+                <span className="font-bold">Nex</span>
+                <span className="font-light font-montserrat ml-2">Novel</span>
               </span>
             </Link>
           </motion.div>

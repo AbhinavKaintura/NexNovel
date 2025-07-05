@@ -50,7 +50,7 @@ const HeroSection = () => {
       <nav className="relative z-10 flex items-center justify-between px-12 py-6">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-white font-Inconsolata">
-          ERYX
+          Nex Novel
         </Link>
 
         {/* Nav Items */}
@@ -115,7 +115,7 @@ const HeroSection = () => {
             whileHover={{ scale: 1.1 }}
             className="mb-3 text-base font-montserrat text-white/70 font-light"
           >
-            ERIX Media Marketing
+            NexNovel Media Marketing
           </motion.h2>
 
           {/* Main Title */}

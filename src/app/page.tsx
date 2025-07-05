@@ -11,7 +11,7 @@ export default function Home() {
     <LazyMotion features={domAnimation}>
       <div className="min-h-screen">
         <Head>
-          <title>ERYX | Design Creates Culture</title>
+          <title>NexNovel</title>
           <meta name="description" content="We are a design-driven agency creating meaningful digital experiences." />
         </Head>
         <main>

@@ -33,8 +33,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ERYX MEDIA: Envision. Execute. Excel",
-  description: "App by ERYX Media",
+  title: "NexNovel",
+  description: "App by NexNovel Devs",
 };
 
 export default function RootLayout({
